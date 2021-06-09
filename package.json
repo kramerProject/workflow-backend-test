@@ -1,0 +1,36 @@
+{
+  "name": "siena",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:server": "nodemon index.js",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gist.github.com/9aba04cbdebbb2c9c7a10e2c4d7bf8c2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gist.github.com/9aba04cbdebbb2c9c7a10e2c4d7bf8c2"
+  },
+  "homepage": "https://gist.github.com/9aba04cbdebbb2c9c7a10e2c4d7bf8c2",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "bull": "^3.22.7",
+    "bull-board": "^2.1.2",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "html-pdf": "^3.0.1",
+    "mysql2": "^2.2.5",
+    "nodemailer": "^6.6.1",
+    "nodemon": "^2.0.7",
+    "sucrase": "^3.18.2",
+    "typescript": "^4.3.2"
+  }
+}
