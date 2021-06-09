@@ -60,6 +60,7 @@ REDIS_PORT=6379
 5. Create a database using MYSQL
 
 ```
+
 DROP DATABASE IF EXISTS siena;
 CREATE DATABASE IF NOT EXISTS siena;
 
@@ -72,6 +73,7 @@ CREATE TABLE IF NOT EXISTS workflow (
     steps VARCHAR(20) NOT NULL,
     PRIMARY KEY (id)
 );
+
 
 ```
 
