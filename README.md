@@ -43,7 +43,7 @@ npm install
 3. Create a .env file in project's root
 
 ```
-MYSQL_USER='your user bane'
+MYSQL_USER='your user name'
 MYSQL_PASSWORD='your password'
 HOSTNAME=localhost
 PORT=3001
