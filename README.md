@@ -10,8 +10,8 @@ Develop a REST API workflow.
 request.body example:
 
 {
-	"status": "string",
-	"data": "string",
+  "status": "string",
+  "data": "string",
   "steps": "string"
 }
 
@@ -37,9 +37,10 @@ Visualize jobs accessing /admin/queues.
 
 2. Install dependencies
 
-```npm install
 ```
-3. - Create a .env file in project's root
+npm install
+```
+3. Create a .env file in project's root
 
 ```
 MYSQL_USER='your user bane'
