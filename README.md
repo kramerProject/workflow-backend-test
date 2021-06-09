@@ -1,8 +1,8 @@
-# Task:
+## Task:
 
-Develop a REST API workflow.
+Develop a REST API workflow using bull, redis and mysql.
 
-# Requirements:
+## Requirements:
 
 1. Insert a workflow on database and on a queue and respond request with the inserted workflow
 
@@ -22,7 +22,7 @@ request.body example:
 
 Visualize jobs accessing /admin/queues.
 
-# Technologies:
+## Technologies:
 
 * Bull
 * Express
@@ -31,9 +31,9 @@ Visualize jobs accessing /admin/queues.
 * NodeJs
 * Redis
 
-# Get Started:
+## Get Started:
 
-1. Clone the project
+1. Clone this project
 
 2. Install dependencies
 
